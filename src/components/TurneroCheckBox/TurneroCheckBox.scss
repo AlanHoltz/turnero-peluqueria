@@ -1,0 +1,24 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.turnero_checkbox {
+    &.MuiButtonBase-root {
+        padding: 0;
+    }
+
+    &.MuiCheckbox-root,
+    &.MuiCheckbox-colorSecondary.Mui-checked {
+        color: $main-color;
+    }
+    &.MuiIconButton-colorSecondary:hover,
+    &.MuiCheckbox-colorSecondary.Mui-checked:hover {
+        background: none;
+    }
+
+    &.Mui-disabled {
+        opacity: 0.2;
+        color: $main-color !important;
+    }
+
+
+}

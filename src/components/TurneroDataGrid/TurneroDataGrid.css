@@ -1,0 +1,72 @@
+.turnero_datagrid.MuiDataGrid-root {
+  border: 0;
+  color: #fac748;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-columnSeparator {
+  color: #1f1f1f;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-cell,
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-columnsContainer {
+  border: 0;
+  user-select: none;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-cell {
+  line-height: normal !important;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-columnsContainer {
+  border-bottom: 2px solid #1f1f1f;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-row {
+  transition: background 0.2s ease;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-row:hover {
+  background: #323332;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+  background: rgba(250, 199, 72, 0.1);
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-row.Mui-selected:hover {
+  background: rgba(250, 199, 72, 0.1);
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  opacity: 0.7;
+}
+.turnero_datagrid.MuiDataGrid-root .MuiDataGrid-sortIcon {
+  color: #fac748;
+}
+.turnero_datagrid_toolbar {
+  padding: 10px 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.turnero_datagrid_toolbar_first_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.turnero_datagrid_no_rows {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_datagrid_no_rows h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=TurneroDataGrid.css.map */

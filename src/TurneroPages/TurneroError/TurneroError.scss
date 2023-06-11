@@ -1,0 +1,24 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.turnero_error{
+    @include hairdressing_background;
+
+    &_container{
+        background: $second-color;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 85%;
+        height: 80%;
+        color: $error-color;
+        border-radius: 5px;
+        @include flex(center,center,column);
+        text-align: center;
+
+        &_code{
+            text-decoration: underline;
+        }
+        h2{
+            margin: 20px 0;
+        }
+    }
+}

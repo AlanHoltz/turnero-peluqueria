@@ -1,0 +1,26 @@
+@use './variables' as *;
+
+@mixin flex($justify, $align, $direction: row) {
+        display: flex;
+        align-items: $align;
+        justify-content: $justify;
+        flex-direction: $direction;
+}
+
+@mixin shadowContainer($includeBackground: true) {
+        @if ($includeBackground) {
+                background: rgb(63, 63, 63);
+        }
+
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+        border-radius: 5px;
+}
+
+@mixin hairdressing_background{
+        height: 100%;
+        width: 100%;
+        background: url($access-background);
+        background-size: contain;
+        background-position: center;
+        @include flex(center, center);
+}

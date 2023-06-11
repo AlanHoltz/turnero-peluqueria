@@ -1,0 +1,14 @@
+.turnero_configuration_services {
+  width: 100%;
+}
+.turnero_configuration_services_new {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.turnero_configuration_services_info_modal {
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=TurneroConfigurationServices.css.map */

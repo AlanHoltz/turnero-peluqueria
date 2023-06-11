@@ -1,0 +1,24 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.blackbox_snackbar{
+    .MuiAlert-standardSuccess{
+        background: #4caf50;
+        .MuiAlert-icon,.MuiAlert-message,.MuiAlert-action{
+            color:#ffffff;
+        }
+        
+    }
+
+    .MuiAlert-standardError{
+        background: $error-color;
+        .MuiAlert-icon,.MuiAlert-message,.MuiAlert-action{
+            color:#ffffff;
+        }
+    }
+
+    .MuiSnackbarContent-root{
+        background:$dark-gray;
+        color:$main-color;
+    }
+}

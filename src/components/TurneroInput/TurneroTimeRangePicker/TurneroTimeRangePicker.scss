@@ -1,0 +1,75 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables" as *;
+
+
+.turnero_time_range_picker{
+    @include flex(center,center);
+    color:$main-color;
+    span{
+        margin: 0 5px;
+    }
+
+
+    &_input{
+        padding: 5px;
+        transition: background .3s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            border-radius: 5px;
+            background: $dark-gray;
+        }
+
+    }
+
+    &_error{
+        background: $error-color;
+        border-radius: 5px;
+    }
+
+    &_dialog  {
+        
+
+        .MuiPaper-root{
+            background: $dark-gray;
+            
+        }
+
+        .MuiPickersClockNumber-clockNumber {
+            color: $main-color;
+        }
+
+         .MuiPickersClock-pin,
+        .MuiPickersClockPointer-pointer {
+            background-color: $main-color;
+        }
+
+        .MuiPickersClockPointer-thumb {
+            border: 14px solid $light-gray;
+        }
+
+        .MuiPickersClockPointer-noPoint {
+            background-color: #ffffff;
+        }
+
+        & .MuiPickersToolbar-toolbar {
+            background: $main-color;
+            h2 {
+                color: $light-gray;
+            }
+
+            .MuiPickersToolbarText-toolbarBtnSelected {
+                background: $dark-gray;
+                border-radius: 150px;
+                color: $main-color;
+                padding: 3px;
+            }
+        }
+
+        .MuiButtonBase-root {
+            color: $main-color;
+        }
+
+        
+    }
+
+}

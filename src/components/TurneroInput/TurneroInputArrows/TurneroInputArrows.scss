@@ -1,0 +1,6 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.turnero_input_arrows{
+    @include flex(center,center);
+}

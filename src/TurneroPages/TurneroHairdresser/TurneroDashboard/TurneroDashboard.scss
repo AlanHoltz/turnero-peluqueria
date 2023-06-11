@@ -1,0 +1,164 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+
+.turnero_dashboard{
+    width: 100%;
+    padding: 10px;
+
+    &_historical{
+        @include flex(center,center, column);
+        height: 100%;
+        &_filter{
+            margin-bottom: 10px;
+        }
+    }
+
+    &_monthly{
+        &_turns_statistics{
+        
+            display:grid;
+            grid-template-columns: 50% 46%;
+            gap: 20px 50px;
+            width: 100%;
+            margin-bottom:20px;
+        }
+    
+        &_earnings_statistics{
+            @include shadowContainer;
+        }
+    
+        &_statistic{
+            @include shadowContainer;
+            padding: 7px;
+    
+            &_average{
+                @include flex(center,center);
+                grid-row-start: 1;
+                grid-row-end: 4;
+                grid-column-start: 2;
+                grid-column-end: 3;
+    
+            }
+    
+            &_turns, &_earnings{
+                width: 100%;
+                height: 100%;
+          
+    
+                & > div{
+                    @include flex(flex-start,center);
+                    p{
+                        margin-left: 5px;
+                    }
+                }
+    
+                & > span{
+                    color: $main-color;
+                    font-weight: 700;
+                    font-size: 28px;
+                    width: 100%;
+                    @include flex(center,center);
+                    p{
+                        padding: 10px;
+                    }
+                }
+            }
+    
+           
+        }
+    }
+
+    &_historical{
+
+    }
+
+    &_header{
+        @include flex(space-between,center);
+        margin-bottom: 9px;
+        &_user{
+            @include flex(flex-start,center);
+            p{
+                margin: 0 10px;
+                text-align: center;
+                color: $main-color;
+                font-size: 25px;
+                font-weight: 700;
+            }
+        }
+
+        &_next_turn{
+            @include flex(center,center);
+            color:$main-color;
+            border-radius: 9999px;
+            background: $dark-gray;
+            padding: 8px;
+            & > div{
+                margin-right: 15px;
+                @include flex(center,center);
+                h2{
+                    margin-left: 5px;
+                    font-size: 21px;
+                }
+            }
+
+            span{
+                font-size: 16px;
+            }
+        }
+        &_filter{
+            
+            @include flex(flex-end,center);
+            p{
+                color:$main-color;
+                margin-right: 10px;
+                font-weight: 550;
+            }
+        }
+    }   
+
+
+
+}
+
+
+@media(max-width:851px){
+    .turnero_dashboard{
+        &_monthly{
+            &_turns_statistics{
+                gap: 20px 30px;
+            }
+        }
+    }
+};
+
+@media(max-width: 545px){
+    .turnero_dashboard{
+
+        &_header{
+            @include flex(center,center,column);
+
+            &_next_turn{
+                margin: 10px 0;
+            }
+            
+        }
+
+        &_monthly{
+            &_turns_statistics{
+                grid-template-columns: 1fr;
+            }
+
+            &_statistic{
+            
+                &_average{
+                    grid-row-start: 4;
+                    grid-row-end: 4;
+                    grid-column-start: 1;
+                    grid-column-end: 1;
+                    
+                }
+            }
+        }
+    }
+}

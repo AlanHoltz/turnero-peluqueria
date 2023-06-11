@@ -1,0 +1,11 @@
+.turnero_configuration_hairdressers_list {
+  width: 100%;
+}
+.turnero_configuration_hairdressers_list_new {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=TurneroConfigurationHairdressersList.css.map */

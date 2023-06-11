@@ -1,0 +1,403 @@
+.turnero_client_turn {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.turnero_no_turn_yet {
+  text-align: center;
+  color: #fac748;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_no_turn_yet h2 {
+  margin: 10px 0;
+}
+
+.turnero_new_turn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.turnero_current_turn_observations_image, .turnero_new_turn_finishing_observations_photo_element {
+  width: 100px;
+  border-radius: 5px;
+  height: auto;
+}
+
+.turnero_current_turn {
+  width: 100%;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.turnero_current_turn_state_and_hairdresser_observations {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background: #1f1f1f;
+  width: 100%;
+  padding: 15px;
+}
+.turnero_current_turn_state_and_hairdresser_observations p {
+  text-align: center;
+  color: #fac748;
+  font-size: 21px;
+  font-weight: 400;
+}
+.turnero_current_turn_state_and_hairdresser_observations p span {
+  font-weight: 700;
+  margin-left: 10px;
+}
+.turnero_current_turn_client_observations {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  background: #1f1f1f;
+  width: 100%;
+  padding: 15px;
+}
+
+.turnero_new_turn_step {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.turnero_new_turn_step_body {
+  flex: 1;
+  width: 100%;
+  padding: 5px;
+  margin-top: 100px;
+}
+.turnero_new_turn_step_body_loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_new_turn_step_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+
+.turnero_new_turn_hairdresser {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_new_turn_hairdresser_grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+.turnero_new_turn_hairdresser_grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  color: #fac748;
+  background: #1f1f1f;
+  border-radius: 5px;
+  padding: 15px;
+}
+.turnero_new_turn_hairdresser_grid > div span {
+  margin-top: 10px;
+  text-align: center;
+}
+.turnero_new_turn_hairdresser_grid > div:hover {
+  background: rgba(31, 31, 31, 0.6);
+}
+
+.turnero_new_turn_date {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_new_turn_date h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fac748;
+  font-size: 20px;
+}
+.turnero_new_turn_date h2 span {
+  background: #1f1f1f;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.turnero_new_turn_time {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.turnero_new_turn_services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.turnero_new_turn_services p {
+  color: #4AF517;
+  transition: opacity 0.3s ease;
+  font-size: 20px;
+}
+.turnero_new_turn_services_wrapper {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.turnero_new_turn_services_wrapper > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  color: #fac748;
+  background: #1f1f1f;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+.turnero_new_turn_services_wrapper > div span {
+  margin-top: 10px;
+  text-align: center;
+}
+.turnero_new_turn_services_wrapper > div:hover {
+  background: rgba(31, 31, 31, 0.6);
+}
+
+.turnero_new_turn_finishing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 20px;
+}
+.turnero_new_turn_finishing_observations {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.turnero_new_turn_finishing_observations_upload {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  background: #1f1f1f !important;
+}
+.turnero_new_turn_finishing_observations_upload_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_new_turn_finishing_observations_photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_new_turn_finishing_observations_photo_delete {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.turnero_client_turn_template_grid {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  background: #1f1f1f;
+  padding: 25px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.turnero_client_turn_template_grid_first_column {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_client_turn_template_grid_first_column_datetime {
+  color: #fac748;
+  font-size: 18px;
+}
+.turnero_client_turn_template_grid_first_column_hairdresser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_client_turn_template_grid_first_column_hairdresser p {
+  margin-left: 10px;
+  color: #fac748;
+  font-size: 18px;
+}
+.turnero_client_turn_template_grid_second_column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.turnero_client_turn_template_grid_second_column_services {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+.turnero_client_turn_template_grid_second_column_services_image_name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  color: #fac748;
+}
+.turnero_client_turn_template_grid_second_column_services_image_name p {
+  margin: 0 10px;
+}
+.turnero_client_turn_template_grid_second_column_services_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fac748;
+  font-size: 15px;
+}
+.turnero_client_turn_template_grid_second_column_services_total_title, .turnero_client_turn_template_grid_second_column_services_price_total {
+  color: #fac748;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 840px) {
+  .turnero_current_turn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .turnero_current_turn_state_and_hairdresser_observations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .turnero_current_turn_state_and_hairdresser_observations p {
+    margin-bottom: 10px;
+  }
+
+  .turnero_new_turn_finishing_observations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .turnero_new_turn_finishing_observations .turnero_textarea {
+    margin: 10px 0;
+  }
+
+  .turnero_client_turn_template_grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .turnero_client_turn_template_grid_first_column, .turnero_client_turn_template_grid_second_column {
+    width: 100%;
+  }
+  .turnero_client_turn_template_grid_second_column {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+}
+@media (max-width: 474px) {
+  .turnero_current_turn_client_observations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .turnero_current_turn_client_observations img {
+    margin-bottom: 10px;
+  }
+
+  .turnero_new_turn_hairdresser_grid {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 376px) {
+  .turnero_new_turn_finishing {
+    padding: 0;
+  }
+
+  .turnero_client_turn_template_grid {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 335px) {
+  .turnero_new_turn_step_buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=TurneroClientTurn.css.map */

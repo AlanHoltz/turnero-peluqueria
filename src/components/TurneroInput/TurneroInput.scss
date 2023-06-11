@@ -1,0 +1,53 @@
+@use '../../styles/mixins'as *;
+@use '../../styles/variables'as *;
+
+
+$opaque-main-color: rgba($main-color, .7);
+
+.turnero_input, .turnero_datetime_picker {
+
+
+    .MuiFormLabel-root {
+        color: $opaque-main-color;
+        /*ROOT DEL LABEL*/
+
+        &.Mui-error {
+            color: $error-color !important;    /*LABEL SUPERIOR AL HABER ERROR*/
+        }
+
+        &.Mui-focused {
+            color: $main-color;
+            /*LABEL CUANDO ESTÁ FOCUSEADO*/
+        }
+
+
+    }
+
+    .MuiFormHelperText-root.Mui-error {
+        color: $error-color;
+    }
+
+    .MuiInput-underline:before {
+        border-bottom: 1px solid $opaque-main-color; /*CONTROLA EL BORDE INFERIOR*/
+    }
+
+    .MuiInputBase-input{
+        color: $main-color;
+        font-size: 15px;
+    }
+
+    .MuiInput-underline:after{
+        border-color: $main-color;      /*CONTROLA EL BORDE INFERIOR AL HACER HOVER*/
+    }
+
+    .MuiInput-underline.Mui-error:after {   /*BORDE INFERIOR DEL INPUT AL HABER ERROR*/
+        transform: scaleX(1);
+        border-bottom-color: $error-color;
+    }
+
+    .MuiInput-underline:hover:not(.Mui-disabled):before{
+        border-bottom: 1px solid $opaque-main-color;
+    }
+
+
+}

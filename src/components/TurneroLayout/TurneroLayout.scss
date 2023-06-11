@@ -1,0 +1,52 @@
+@use '../../styles/mixins'as *;
+@use '../../styles/variables'as *;
+
+.turnero_layout {
+    height: 100%;
+    overflow: hidden;
+
+    &_header {
+        background: $dark-gray;
+        padding: 9px 15px;
+        color: $main-color;
+        @include flex(flex-start, center);
+
+        &_title {
+            @include flex(center, center);
+
+            h2 {
+                margin: 0 0 0 10px;
+            }
+
+
+        }
+
+    }
+
+    &_body {
+        height: calc(100% - 62px);
+        padding: 10px 10px 0 10px;
+        overflow-y:auto;
+        position: relative;
+        @include flex(flex-start,flex-start,column);
+
+        &_backdrop {
+            width: 100%;
+            position: absolute;
+            @include flex(center, center);
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.473);
+        }
+
+
+    }
+
+}
+
+@media(max-width:320px) {
+    .turnero_layout_header_title {
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,34 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+
+.turnero_configuration_header {
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    h2 {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    color:$main-color;
+    @include flex(space-between, center);
+
+};
+
+@media(max-width:465px) {
+    .turnero_configuration_header {
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        @include flex(center, flex-start, column);
+
+        &_buttons {
+            @include flex(center, center);
+        }
+
+    }
+}

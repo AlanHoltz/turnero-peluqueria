@@ -1,0 +1,89 @@
+.turnero_turns_list {
+  overflow-y: auto;
+  text-align: center;
+  overflow-x: hidden;
+  width: 40%;
+  height: 100%;
+  background: #2a2b2a;
+}
+.turnero_turns_list h2 {
+  padding: 5px 0;
+  letter-spacing: 5px;
+  top: 0;
+  left: 0;
+}
+.turnero_turns_list_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #2a2b2a;
+}
+.turnero_turns_list_container {
+  width: 100%;
+  height: calc(100% - 43px);
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.turnero_turns_list_container h2 {
+  color: #fac748;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  top: calc(50vh - 20px);
+}
+.turnero_turns_list_container .Grid::-webkit-scrollbar-thumb {
+  background: #2a2b2a;
+}
+
+.fade {
+  animation-name: fadeAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 891px) {
+  .turnero_turns_list {
+    width: 50%;
+  }
+}
+@media (max-width: 750px) {
+  .turnero_turns_list {
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+  }
+}
+@media (max-width: 420px) {
+  .turnero_turns_list_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .turnero_turns_list_header h2 {
+    font-size: 8vw;
+  }
+  .turnero_turns_list_container h2 {
+    top: calc(50vh - 45px);
+  }
+}
+
+/*# sourceMappingURL=TurneroTurnsList.css.map */

@@ -1,0 +1,48 @@
+.turnero_configuration_turns_param {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(250, 199, 72, 0.5);
+}
+.turnero_configuration_turns_param_description {
+  color: #fac748;
+}
+.turnero_configuration_turns_param_description h2 {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+.turnero_configuration_turns_param_description p {
+  font-size: 14px;
+}
+.turnero_configuration_turns_param_value {
+  color: #fac748;
+  font-size: 18px;
+  font-weight: 700;
+  width: 192px;
+}
+.turnero_configuration_turns_param_value > p {
+  text-align: center;
+}
+
+@media (max-width: 553px) {
+  .turnero_configuration_turns_param {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .turnero_configuration_turns_param_description {
+    margin-bottom: 20px;
+  }
+  .turnero_configuration_turns_param_value {
+    width: 100%;
+  }
+  .turnero_configuration_turns_param_value > p {
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=TurneroConfigurationTurns.css.map */

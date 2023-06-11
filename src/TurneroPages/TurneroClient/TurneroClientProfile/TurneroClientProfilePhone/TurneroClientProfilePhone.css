@@ -1,0 +1,67 @@
+.turnero_client_profile_phone {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_client_profile_phone_send_code, .turnero_client_profile_phone_verify_code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+}
+.turnero_client_profile_phone_send_code_description, .turnero_client_profile_phone_verify_code_description {
+  text-align: center;
+  color: #fac748;
+}
+.turnero_client_profile_phone_send_code_description p span, .turnero_client_profile_phone_verify_code_description p span {
+  font-weight: bold;
+}
+.turnero_client_profile_phone_send_code {
+  height: 80%;
+}
+.turnero_client_profile_phone_send_code_input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_client_profile_phone_verify_code {
+  height: 90%;
+}
+.turnero_client_profile_phone_verify_code_not_received {
+  text-align: center;
+  color: #fac748;
+}
+.turnero_client_profile_phone_verify_code_not_received span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.turnero_client_profile_phone_verify_code_not_received span:hover {
+  text-decoration: underline;
+}
+.turnero_client_profile_phone img {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 533px) {
+  .turnero_client_profile_phone_send_code, .turnero_client_profile_phone_verify_code {
+    width: 100%;
+  }
+  .turnero_client_profile_phone_send_code {
+    height: 90%;
+  }
+  .turnero_client_profile_phone_send_code_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=TurneroClientProfilePhone.css.map */

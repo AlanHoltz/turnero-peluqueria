@@ -1,0 +1,23 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.turnero_input_text_switch {
+    @include flex(center, flex-start, column);
+    margin: 15px 0;
+
+    & > span {
+        margin: 5px 0;
+        @include flex(center, center);
+
+        .turnero_input_text_switch_title {
+            margin-left: 5px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .turnero_input_text_switch_beside {
+            margin-left: 4px;
+        }
+
+    }
+}

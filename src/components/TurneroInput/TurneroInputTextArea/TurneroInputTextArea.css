@@ -1,0 +1,24 @@
+.turnero_textarea_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 8px;
+  color: #fac748;
+  font-weight: 300;
+}
+.turnero_textarea_top span {
+  font-size: 13px;
+}
+.turnero_textarea_input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  background: none;
+  resize: none;
+  border: 0;
+  outline: none;
+  color: #fac748;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=TurneroInputTextArea.css.map */

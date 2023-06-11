@@ -1,0 +1,218 @@
+@use '../../../../styles/mixins'as *;
+@use '../../../../styles/variables'as *;
+
+
+@mixin padded {
+    padding: 30px 40px;
+}
+
+@mixin no-padded {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.turnero_turn_details {
+    //background: $selected-turn-color;
+    overflow-x: hidden;
+    @include padded();
+    width: 60%;
+    height: 100%;
+    @include flex(flex-start, center, column);
+    overflow-y: auto;
+
+    &_close_button {
+        display: none;
+    }
+
+    &_header {
+        @include flex(center, center);
+
+        h2 {
+            margin-left: 20px;
+            color: $main-color;
+            font-weight: 700;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+    }
+
+    &_state {
+        @include flex(space-between, center);
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px 0;
+
+        &_value {
+            @include flex(center, center);
+
+            &_circle {
+                margin-right: 10px;
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+            }
+
+            p {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &_basics,
+    &_observations,
+    &_services {
+        margin: 20px 0;
+        width: 100%;
+        padding: 10px;
+        @include shadowContainer;
+
+        h3 {
+            color: $main-color;
+            width: 100%;
+            text-align: start;
+            padding: 5px 0;
+            //border-bottom: 1px solid $main-color;
+        }
+
+        @include flex(center, flex-start, column);
+    }
+
+    &_basics {
+        &_container {
+            width: 100%;
+            @include flex(space-between, center);
+
+            &_first_column {
+                &>div {
+                    margin: 10px 0;
+                    color: $main-color;
+                    font-size: 18px;
+                    @include flex(flex-start, center);
+
+                    p {
+                        margin: 0 10px;
+                    }
+                }
+            }
+
+            &_second_column {
+                @include flex(center, center);
+                color: $main-color;
+
+                p {
+                    margin-left: 10px;
+                    font-size: 17px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+
+    }
+
+    &_observations {
+        color: $main-color;
+        text-align: start;
+
+        &_photo{
+            width: 100%;
+            text-align: end;
+            text-decoration: underline;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+
+    &_image{
+        width: 500px;
+        height: auto;
+    }
+}
+
+.show_details {
+    //left: 0%;
+}
+
+@media(max-width:891px) {
+
+    .turnero_turn_details {
+        width: 50%;
+        @include no-padded();
+    }
+}
+
+@media(max-width:736px){
+    .turnero_turn_details{
+        &_image{
+            width: 400px;
+            
+        }
+    }
+}
+
+
+@media(max-width:515px) {
+    .turnero_turn_details {
+        &_basics {
+            &_container {
+                @include flex(center, flex-start, column);
+            }
+
+        }
+
+        &_image{
+            width: 350px;
+        }
+    }
+}
+
+@media(max-width:$turnero-turns-breakpoint) {
+    .turnero_turn_details {
+        @include padded();
+        background: $selected-turn-color;
+        left: 100%;
+        opacity: 0;
+        transition: left .3s cubic-bezier(0.22, 1, 0.36, 1), opacity .3s ease;
+        z-index: 5;
+        width: 100%;
+        position: absolute;
+
+        &_close_button {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    }
+
+    .show_details {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+@media(max-width:410px) {
+    .turnero_turn_details {
+        @include no-padded();
+
+        &_image{
+            width: 100%;
+        }
+    }
+}
+
+/*TURNERO NO TURN DETAILS (VISTA CUANDO NO SE SELECCIONÓ UN TURNO)*/
+
+.turnero_no_turn_details {
+    width: 100%;
+    height: 100%;
+    @include flex(center, center, column);
+
+    p {
+        font-weight: 700;
+        font-size: 22px;
+        color: $main-color;
+    }
+}

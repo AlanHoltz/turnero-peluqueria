@@ -1,0 +1,33 @@
+.turnero_configuration_header {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fac748;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.turnero_configuration_header h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 465px) {
+  .turnero_configuration_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .turnero_configuration_header h2 {
+    margin-bottom: 10px;
+  }
+  .turnero_configuration_header_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=TurneroConfigurationHeader.css.map */

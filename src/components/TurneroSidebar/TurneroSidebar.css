@@ -1,0 +1,60 @@
+.turnero_sidebar {
+  height: 100%;
+  width: 70px;
+  text-align: center;
+  padding-top: 10px;
+  background: #fac748;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.turnero_sidebar_nav_header {
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.turnero_sidebar_nav,
+.turnero_sidebar footer {
+  width: 100%;
+}
+.turnero_sidebar li {
+  padding: 15px 0;
+  transition: background 0.2s ease-in-out;
+  /*CONTROLA TODOS LOS ELEMENTS DEL SIDEBAR*/
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.turnero_sidebar li:hover {
+  background: #f8cf69;
+}
+
+@media (max-width: 420px) {
+  .turnero_sidebar {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .turnero_sidebar_nav_header {
+    display: none;
+  }
+  .turnero_sidebar_nav_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .turnero_sidebar_nav_body li {
+    height: 45px;
+  }
+}
+
+/*# sourceMappingURL=TurneroSidebar.css.map */

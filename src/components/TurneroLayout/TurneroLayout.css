@@ -1,0 +1,52 @@
+.turnero_layout {
+  height: 100%;
+  overflow: hidden;
+}
+.turnero_layout_header {
+  background: #1f1f1f;
+  padding: 9px 15px;
+  color: #fac748;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.turnero_layout_header_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_layout_header_title h2 {
+  margin: 0 0 0 10px;
+}
+.turnero_layout_body {
+  height: calc(100% - 62px);
+  padding: 10px 10px 0 10px;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.turnero_layout_body_backdrop {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.473);
+}
+
+@media (max-width: 320px) {
+  .turnero_layout_header_title {
+    font-size: 4vw;
+  }
+}
+
+/*# sourceMappingURL=TurneroLayout.css.map */

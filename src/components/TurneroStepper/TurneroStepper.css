@@ -1,0 +1,18 @@
+.turnero_stepper {
+  width: 100%;
+}
+.turnero_stepper.MuiStepper-root {
+  padding: 5px;
+}
+.turnero_stepper.MuiStepper-root .MuiStepLabel-label {
+  color: #ffffff;
+  margin: 0;
+}
+
+@media (max-width: 420px) {
+  .turnero_stepper.MuiStepper-root {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=TurneroStepper.css.map */

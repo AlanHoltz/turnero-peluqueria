@@ -1,0 +1,69 @@
+@use '../../styles/mixins'as *;
+@use '../../styles/variables'as *;
+
+.turnero_sidebar {
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+    background: $main-color;
+    @include flex(space-between, center, column);
+
+    &_nav {
+        &_header {
+            font-size: 11px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &_nav,
+    footer {
+        width: 100%;
+    }
+
+
+
+    li {
+        padding: 15px 0;
+        transition: background .2s ease-in-out;
+        /*CONTROLA TODOS LOS ELEMENTS DEL SIDEBAR*/
+        cursor: pointer;
+        @include flex(center, center);
+        width: 100%;
+
+        &:hover {
+            background: #f8cf69;
+        }
+    }
+
+
+}
+
+@media(max-width:$turnero-sidebar-breakpoint) {
+
+    .turnero_sidebar {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        @include flex(space-between, center);
+
+
+
+        &_nav {
+
+            &_header {
+                display: none;
+            }
+
+            &_body {
+                @include flex(space-between, center);
+
+                li {
+                    height: $turnero-sidebar-responsive-height;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.blackbox_snackbar .MuiAlert-standardSuccess {
+  background: #4caf50;
+}
+.blackbox_snackbar .MuiAlert-standardSuccess .MuiAlert-icon, .blackbox_snackbar .MuiAlert-standardSuccess .MuiAlert-message, .blackbox_snackbar .MuiAlert-standardSuccess .MuiAlert-action {
+  color: #ffffff;
+}
+.blackbox_snackbar .MuiAlert-standardError {
+  background: #f53527;
+}
+.blackbox_snackbar .MuiAlert-standardError .MuiAlert-icon, .blackbox_snackbar .MuiAlert-standardError .MuiAlert-message, .blackbox_snackbar .MuiAlert-standardError .MuiAlert-action {
+  color: #ffffff;
+}
+.blackbox_snackbar .MuiSnackbarContent-root {
+  background: #1f1f1f;
+  color: #fac748;
+}
+
+/*# sourceMappingURL=TurneroSnackBar.css.map */

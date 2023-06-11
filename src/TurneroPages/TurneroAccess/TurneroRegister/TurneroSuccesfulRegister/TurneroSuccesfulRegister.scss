@@ -1,0 +1,15 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as *;
+
+.turnero_succesful_register_paragraph{
+    font-size: 20px;
+    font-weight: 300;
+    span{
+        font-weight: 700;
+    }
+}
+
+.turnero_succesful_register_h2{
+    font-size: 30px;
+}
+

@@ -1,0 +1,8 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.turnero_icon_button{
+    &.MuiButtonBase-root{
+        padding: 0;
+    }
+}

@@ -1,0 +1,108 @@
+.turnero_access {
+  height: 100%;
+  width: 100%;
+  background: url("../../assets/access-background.png");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_access_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  height: 85%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.turnero_access_container .turnero_access_brand,
+.turnero_access_container .turnero_access_data {
+  width: 50%;
+  height: 100%;
+}
+.turnero_access_container .turnero_access_data {
+  background: #2a2b2a;
+}
+.turnero_access_container .turnero_access_data .turnero_login,
+.turnero_access_container .turnero_access_data .turnero_register,
+.turnero_access_container .turnero_access_data .turnero_succesful_register {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #fac748;
+  text-align: center;
+  padding: 0 40px;
+}
+.turnero_access_container .turnero_access_data .turnero_login .turnero_access_form,
+.turnero_access_container .turnero_access_data .turnero_register .turnero_access_form,
+.turnero_access_container .turnero_access_data .turnero_succesful_register .turnero_access_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+.turnero_access_container .turnero_access_data .turnero_login .turnero_access_paragraph,
+.turnero_access_container .turnero_access_data .turnero_register .turnero_access_paragraph,
+.turnero_access_container .turnero_access_data .turnero_succesful_register .turnero_access_paragraph {
+  font-weight: 300;
+}
+.turnero_access_container .turnero_access_data .turnero_login .turnero_access_paragraph span,
+.turnero_access_container .turnero_access_data .turnero_register .turnero_access_paragraph span,
+.turnero_access_container .turnero_access_data .turnero_succesful_register .turnero_access_paragraph span {
+  font-weight: 700;
+  cursor: pointer;
+}
+.turnero_access_container .turnero_access_data .turnero_login .turnero_access_paragraph span:hover,
+.turnero_access_container .turnero_access_data .turnero_register .turnero_access_paragraph span:hover,
+.turnero_access_container .turnero_access_data .turnero_succesful_register .turnero_access_paragraph span:hover {
+  text-decoration: underline;
+}
+.turnero_access_container .turnero_access_brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: #fac748;
+  /*img {
+      width: ;
+      height: auto;
+  }*/
+}
+.turnero_access_container .turnero_access_brand img {
+  width: 350px;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .turnero_access_container {
+    width: 100%;
+  }
+}
+@media (max-width: 667px) {
+  .turnero_access_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .turnero_access_container .turnero_access_data,
+.turnero_access_container .turnero_access_brand {
+    width: 100%;
+  }
+  .turnero_access_container .turnero_access_brand {
+    height: auto;
+  }
+  .turnero_access_container .turnero_access_brand img {
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=TurneroAccess.css.map */

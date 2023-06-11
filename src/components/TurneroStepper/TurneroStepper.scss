@@ -1,0 +1,24 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.turnero_stepper {
+    width: 100%;
+    &.MuiStepper-root {
+        padding: 5px;
+
+
+        .MuiStepLabel-label {
+            color: #ffffff;
+            margin:0;
+        }
+
+    }
+}
+
+@media(max-width:$turnero-sidebar-breakpoint){
+    .turnero_stepper{
+        &.MuiStepper-root{
+            width: 100%;
+        }
+    }
+}

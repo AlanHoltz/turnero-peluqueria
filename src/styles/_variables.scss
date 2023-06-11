@@ -1,0 +1,23 @@
+$main-color: #fac748;
+$main-color-transparent: rgba($main-color, .5);
+$second-color: #2a2b2a;
+$error-color: #f53527;
+
+$access-background: "../../assets/access-background.png";
+
+$accepted-color: rgb(48, 236, 48);
+$pending-color: rgb(255, 255, 0);
+$rejected-color: rgb(211, 7, 7);
+
+$selected-turn-color: rgb(59, 59, 59);
+
+$turnero-turns-breakpoint: 750px;
+$turnero-sidebar-breakpoint: 420px;
+$turnero-sidebar-responsive-height: 45px;
+
+$light-gray: #3b3b3b;
+$dark-gray: #1f1f1f;
+
+$accept-button-color: $accepted-color;
+$edit-button-color: $pending-color;
+$delete-button-color:$rejected-color;

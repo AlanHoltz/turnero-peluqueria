@@ -1,0 +1,10 @@
+@use '../../../../../styles/mixins' as *;
+@use '../../../../../styles/variables' as *;
+
+
+.turnero_configuration_hairdressers_list{
+    width: 100%;
+    &_new{
+        @include flex(flex-end,center);
+    }
+}

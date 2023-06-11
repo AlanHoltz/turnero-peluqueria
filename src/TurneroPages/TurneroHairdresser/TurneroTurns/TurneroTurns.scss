@@ -1,0 +1,20 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.turnero_turns{
+  /*  display: grid;
+    height: 100%;
+    grid-template-columns: 40% 60%;*/
+    @include flex(center,center);
+    height: 100%;
+    background: $selected-turn-color;
+    
+}
+
+@media(max-width:$turnero-turns-breakpoint){
+    .turnero_turns{
+        position: relative;
+        //grid-template-columns: 100% 0;
+    }
+    
+}

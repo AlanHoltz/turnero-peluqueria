@@ -1,0 +1,29 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+
+.turnero_textarea{
+
+    &_top{
+        @include flex(flex-start,center);
+        margin-bottom:8px;
+        color: $main-color;
+        font-weight: 300;
+        span{
+            font-size: 13px;
+        }
+    }
+
+    &_input{
+        @include shadowContainer(false);
+        background: none;
+        resize: none;
+        border: 0;
+        outline: none;
+        color:$main-color;
+        font-size: 14px;
+    }
+
+
+}
+

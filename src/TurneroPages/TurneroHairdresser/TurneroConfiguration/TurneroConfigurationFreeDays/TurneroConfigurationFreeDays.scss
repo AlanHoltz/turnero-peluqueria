@@ -1,0 +1,8 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.turnero_configuration_free_days_create_or_edit{
+    &_wrapper{
+        @include flex(center,flex-start,column);
+    }
+}

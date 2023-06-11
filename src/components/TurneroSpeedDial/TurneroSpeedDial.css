@@ -1,0 +1,20 @@
+.turnero_speed_dial {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.turnero_speed_dial .MuiFab-root {
+  background: #fac748;
+}
+.turnero_speed_dial .MuiFab-root:hover {
+  background: #fac748;
+}
+.turnero_speed_dial .MuiFab-label {
+  color: #2a2b2a;
+}
+.turnero_speed_dial .MuiSpeedDialAction-staticTooltip .MuiSpeedDialAction-staticTooltipLabel {
+  background: #2a2b2a;
+  color: #fac748;
+}
+
+/*# sourceMappingURL=TurneroSpeedDial.css.map */

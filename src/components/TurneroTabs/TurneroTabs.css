@@ -1,0 +1,19 @@
+.turnero_tabs {
+  background: none;
+  width: 100%;
+}
+.turnero_tabs .MuiTab-textColorPrimary {
+  color: #575656;
+}
+.turnero_tabs .MuiTabs-flexContainer {
+  border-bottom: 1px solid #575656;
+}
+.turnero_tabs .MuiTab-textColorPrimary.Mui-selected {
+  color: #fac748;
+}
+.turnero_tabs .MuiTabs-indicator {
+  height: 1px;
+  background: #fac748;
+}
+
+/*# sourceMappingURL=TurneroTabs.css.map */

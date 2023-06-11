@@ -1,0 +1,103 @@
+@use '../../styles/variables'as *;
+@use '../../styles/mixins'as *;
+
+.turnero_access {
+    
+    @include hairdressing_background;
+
+
+    &_container {
+        @include flex(center, center);
+        width: 80%;
+        height: 85%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .turnero_access_brand,
+        .turnero_access_data {
+            width: 50%;
+            height: 100%;
+
+        }
+
+        .turnero_access_data {
+            background: $second-color;
+
+            .turnero_login,
+            .turnero_register,
+            .turnero_succesful_register {
+                height: 100%;
+                width: 100%;
+                @include flex(space-evenly, center, column);
+                color: $main-color;
+                text-align: center;
+                padding: 0 40px;
+
+                .turnero_access_form {
+                    @include flex(space-evenly, center, column);
+                    width: 100%;
+                }
+
+                .turnero_access_paragraph {
+                    font-weight: 300;
+
+                    span {
+                        font-weight: 700;
+                        cursor: pointer;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .turnero_access_brand {
+            @include flex(center, center);
+            background: $main-color;
+
+            /*img {
+                width: ;
+                height: auto;
+            }*/
+
+            img{
+                width: 350px;
+                height: auto;
+            }
+        }
+    }
+
+}
+
+
+@media(max-width:800px) {
+    .turnero_access {
+        &_container {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:667px) {
+    .turnero_access {
+        &_container {
+            @include flex(center, center, column-reverse);
+            height: 100%;
+
+            .turnero_access_data,
+            .turnero_access_brand {
+                width: 100%;
+            }
+
+            .turnero_access_brand {
+                height: auto;
+                img{
+                    width: 150px;
+                }
+            }
+
+        }
+    }
+}

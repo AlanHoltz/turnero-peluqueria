@@ -1,0 +1,66 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables" as *;
+
+.turnero_date_picker {
+  overflow-x: auto;
+    @include shadowContainer;
+    .MuiPickersStaticWrapper-staticWrapperRoot {
+        
+        background: transparent;
+
+        .MuiPickersBasePicker-pickerView {
+            min-height: auto;
+            
+        }
+
+        .MuiPickersBasePicker-pickerViewLandscape {
+            padding: 0;
+            
+        }
+
+        .MuiPickersBasePicker-container.MuiPickersBasePicker-containerLandscape {
+            justify-content: center;
+            background: $light-gray;
+
+            .MuiPickersCalendarHeader-switchHeader {
+                background: $dark-gray;
+                color: $main-color;
+                margin-top: 0;
+
+                .MuiButtonBase-root.MuiIconButton-root.MuiPickersCalendarHeader-iconButton {
+                    background: transparent;
+                    color: $main-color;
+
+                    &.Mui-disabled {
+                        color: rgba($main-color, 0.2);
+                    }
+                }
+            }
+
+            .MuiTypography-root.MuiPickersCalendarHeader-dayLabel.MuiTypography-caption {
+                color: $main-color;
+            }
+        }
+
+        .MuiPickersSlideTransition-transitionContainer.MuiPickersCalendar-transitionContainer {
+            
+            .MuiPickersDay-day{
+                color:$main-color;
+
+                &.MuiPickersDay-dayDisabled{
+                    color:rgba($main-color,.1);
+                }
+
+                &.MuiPickersDay-daySelected{
+                    background: $dark-gray;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:315px){
+    .turnero_date_picker{
+        width: 100%;
+    }
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+.turnero_turn_details {
+  overflow-x: hidden;
+  padding: 30px 40px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.turnero_turn_details_close_button {
+  display: none;
+}
+.turnero_turn_details_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_turn_details_header h2 {
+  margin-left: 20px;
+  color: #fac748;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.turnero_turn_details_state {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0;
+}
+.turnero_turn_details_state_value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_turn_details_state_value_circle {
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.turnero_turn_details_state_value p {
+  text-transform: uppercase;
+}
+.turnero_turn_details_basics, .turnero_turn_details_observations, .turnero_turn_details_services {
+  margin: 20px 0;
+  width: 100%;
+  padding: 10px;
+  background: #3f3f3f;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_turn_details_basics h3, .turnero_turn_details_observations h3, .turnero_turn_details_services h3 {
+  color: #fac748;
+  width: 100%;
+  text-align: start;
+  padding: 5px 0;
+}
+.turnero_turn_details_basics_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.turnero_turn_details_basics_container_first_column > div {
+  margin: 10px 0;
+  color: #fac748;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.turnero_turn_details_basics_container_first_column > div p {
+  margin: 0 10px;
+}
+.turnero_turn_details_basics_container_second_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fac748;
+}
+.turnero_turn_details_basics_container_second_column p {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.turnero_turn_details_observations {
+  color: #fac748;
+  text-align: start;
+}
+.turnero_turn_details_observations_photo {
+  width: 100%;
+  text-align: end;
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+.turnero_turn_details_image {
+  width: 500px;
+  height: auto;
+}
+
+@media (max-width: 891px) {
+  .turnero_turn_details {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 736px) {
+  .turnero_turn_details_image {
+    width: 400px;
+  }
+}
+@media (max-width: 515px) {
+  .turnero_turn_details_basics_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .turnero_turn_details_image {
+    width: 350px;
+  }
+}
+@media (max-width: 750px) {
+  .turnero_turn_details {
+    padding: 30px 40px;
+    background: #3b3b3b;
+    left: 100%;
+    opacity: 0;
+    transition: left 0.3s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+  }
+  .turnero_turn_details_close_button {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .show_details {
+    left: 0;
+    opacity: 1;
+  }
+}
+@media (max-width: 410px) {
+  .turnero_turn_details {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .turnero_turn_details_image {
+    width: 100%;
+  }
+}
+/*TURNERO NO TURN DETAILS (VISTA CUANDO NO SE SELECCIONÓ UN TURNO)*/
+.turnero_no_turn_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_no_turn_details p {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fac748;
+}
+
+/*# sourceMappingURL=TurneroTurnDetails.css.map */

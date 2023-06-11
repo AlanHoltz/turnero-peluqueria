@@ -1,0 +1,351 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables" as *;
+
+@mixin selectable(){
+    @include flex(center, center, column);
+            @include shadowContainer(false);
+            cursor: pointer;
+            position: relative;
+            transition: transform .3s ease;
+            color: $main-color;
+            background: $dark-gray;
+            border-radius: 5px;
+            padding: 15px;
+            span {
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            &:hover {
+                background: rgba($dark-gray, 0.6);
+            }
+}
+
+.turnero_client_turn {
+    flex:1;
+    width: 100%;
+    @include flex(center, center);
+}
+
+.turnero_no_turn_yet {
+    text-align: center;
+    color: $main-color;
+    text-transform: uppercase;
+    @include flex(center, center, column);
+    h2 {
+        margin: 10px 0;
+    }
+}
+
+.turnero_new_turn {
+    @include flex(flex-start, center, column);
+    height: 100%;
+    width: 100%;
+}
+
+.turnero_current_turn_observations_image,.turnero_new_turn_finishing_observations_photo_element{
+    width: 100px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.turnero_current_turn{
+    width: 100%;
+    padding: 0 20px;
+    height: 100%;
+    @include flex(space-evenly,center,column);
+
+    &_state_and_hairdresser_observations{
+        @include shadowContainer(false);
+        @include flex(space-around,center);
+        background: $dark-gray;
+        width: 100%;
+        padding: 15px;
+    
+        p{
+            text-align: center;
+            color: $main-color;
+            font-size: 21px;
+            font-weight: 400;
+            span{
+                font-weight: 700;
+                margin-left:10px;
+            }
+        }
+     
+    }
+
+    &_client_observations{
+        @include flex(flex-start,center);
+        @include shadowContainer(false);
+        background: $dark-gray;
+        width: 100%;
+        padding:15px;
+        
+    }
+}
+
+.turnero_new_turn_step {
+    height: 100%;
+    @include flex(space-between, flex-start, column);
+
+    &_body {
+        flex: 1;
+        width: 100%;
+        padding: 5px;
+        margin-top: 100px;
+
+        &_loading {
+            height: 100%;
+            @include flex(center, center);
+        }
+    }
+
+    &_buttons {
+        @include flex(space-between, center);
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.turnero_new_turn_hairdresser {
+    height: 100%;
+    @include flex(center, center);
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 20px;
+
+        & > div {
+            @include selectable();
+        }
+    }
+}
+
+.turnero_new_turn_date {
+    height: 100%;
+    @include flex(center, center, column);
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: $main-color;
+        font-size: 20px;
+
+        span {
+            background: $dark-gray;
+            padding: 4px;
+            border-radius: 5px;
+        }
+    }
+}
+
+.turnero_new_turn_time{
+    height: 100%;
+    @include flex(center,center,column);
+}
+
+.turnero_new_turn_services{
+    
+    @include flex(center,center,column);
+    height: 100%;
+
+    p{
+        color:#4AF517;
+        transition: opacity .3s ease;
+        font-size: 20px;
+    }
+
+    &_wrapper{
+        margin-top:15px;
+        @include flex(center,center);
+        flex-wrap: wrap;
+        & > div{
+            @include selectable;
+            margin: 10px;
+            
+        }
+    }
+   
+
+}
+
+.turnero_new_turn_finishing{
+    @include flex(space-around,center, column);
+    height: 100%;
+    padding: 0 20px;
+
+
+    &_observations{
+        margin: 10px 0;
+        width: 100%;
+        @include flex(space-between,flex-end);
+
+
+        &_upload{
+            @include shadowContainer(false);
+            background: $dark-gray !important;
+
+            &_button{
+                @include flex(center,center,column);
+                
+            }
+        }
+
+        
+
+        &_photo{
+            @include flex(center,center,column);
+            &_delete{
+                width: 100%;
+                margin-bottom: 5px;
+                @include flex(flex-end,center);
+            }
+            
+        }
+    }
+
+   
+}
+
+.turnero_client_turn_template_grid{
+    @include shadowContainer(false);
+    background: $dark-gray;
+    padding: 25px 0;
+    width: 100%;
+    @include flex(space-around,center);
+    &_first_column{
+        margin-bottom: 10px;
+        @include flex(center,flex-start,column);
+
+        &_datetime{
+            color:$main-color;
+            font-size: 18px;
+            
+        }
+
+        &_hairdresser{
+            @include flex(center,center);
+            p{
+                margin-left: 10px;
+                color:$main-color;
+                font-size: 18px;
+   
+            }
+        }
+    }
+
+    &_second_column{
+        @include flex(flex-end,center);
+
+        &_services{
+            display:grid;
+            gap: 20px;
+            grid-template-columns: auto auto auto;
+
+            &_image_name{
+                @include flex(flex-start,center);
+                color:$main-color;
+                p{
+                    margin: 0 10px;
+                }
+            }
+
+            &_price{
+                @include flex(center,center);
+                color:$main-color;
+                font-size: 15px;
+            }
+
+
+            &_total_title, &_price_total{
+                color:$main-color;
+                font-weight: 700;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media(max-width:840px){
+
+    .turnero_current_turn{
+        @include flex(flex-start,center,column);
+
+        &_state_and_hairdresser_observations{
+            @include flex(center,flex-start,column);
+            p{
+                margin-bottom:10px;
+            }
+
+        }
+
+        
+    }
+
+    .turnero_new_turn_finishing{
+
+        &_observations{
+            @include flex(center,center,column-reverse);
+    
+            .turnero_textarea{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .turnero_client_turn_template_grid{
+        @include flex(center,flex-start,column);
+        padding: 10px;
+
+        &_first_column,&_second_column{
+            width: 100%;
+        }
+
+        &_second_column{
+            @include flex(flex-start,center);
+        }
+    }
+
+}
+
+@media (max-width: 474px) {
+    
+    .turnero_current_turn{
+        &_client_observations{
+            @include flex(center,flex-start,column);
+
+            img{
+                margin-bottom:10px;
+            }
+        }
+    }
+    
+    .turnero_new_turn_hairdresser {
+        &_grid {
+            grid-template-columns: auto;
+        }
+    }
+
+}
+
+@media(max-width:376px){
+    .turnero_new_turn_finishing{
+        padding: 0;
+    }
+
+    .turnero_client_turn_template_grid{
+       
+
+        overflow-x: auto;
+        
+    }
+
+}
+
+@media (max-width: 335px) {
+    .turnero_new_turn_step_buttons {
+        @include flex(center, flex-start, column);
+    }
+} ;

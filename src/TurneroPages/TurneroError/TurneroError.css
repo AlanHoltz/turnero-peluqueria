@@ -1,0 +1,32 @@
+.turnero_error {
+  height: 100%;
+  width: 100%;
+  background: url("../../assets/access-background.png");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_error_container {
+  background: #2a2b2a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 85%;
+  height: 80%;
+  color: #f53527;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.turnero_error_container_code {
+  text-decoration: underline;
+}
+.turnero_error_container h2 {
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=TurneroError.css.map */

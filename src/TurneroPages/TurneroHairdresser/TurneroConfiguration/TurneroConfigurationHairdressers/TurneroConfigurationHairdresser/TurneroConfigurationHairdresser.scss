@@ -1,0 +1,9 @@
+@use '../../../../../styles/mixins'as *;
+@use '../../../../../styles/variables'as *;
+
+.turnero_configuration_hairdresser{
+    padding:20px 20px 0 20px;
+    height: calc(100% - 49px);
+    width: 100%;
+}
+

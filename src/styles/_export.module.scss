@@ -1,0 +1,19 @@
+@import './variables';
+
+:export{
+    mainColor: $main-color;
+    mainColorTransparent: $main-color-transparent;
+    errorColor: $error-color;
+    secondColor: $second-color;
+    acceptedColor: $accepted-color;
+    pendingColor: $pending-color;
+    rejectedColor: $rejected-color;
+    turneroTurnsBreakpoint: $turnero-turns-breakpoint;
+    turneroSidebarBreakpoint: $turnero-sidebar-breakpoint;
+    lightGray: $light-gray;
+    darkGray: $dark-gray;
+    editButtonColor: $edit-button-color;
+    deleteButtonColor:$delete-button-color;
+    acceptButtonColor: $accept-button-color;
+
+}

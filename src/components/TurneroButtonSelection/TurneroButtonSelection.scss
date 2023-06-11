@@ -1,0 +1,27 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.turnero_button_selection {
+
+   @include flex(center,center);
+   flex-wrap: wrap;
+
+    &_vertical{
+        @include flex(center,center,column);
+    }
+
+    & &_button {
+       border:1px solid $main-color;
+       background: none ;
+        color:$main-color;
+
+        &:hover,&:focus{
+            background: none;
+        }
+        
+    }
+}
+
+
+
+

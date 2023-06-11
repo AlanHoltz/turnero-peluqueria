@@ -1,0 +1,1118 @@
+[2022-08-11 19:39] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:40] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:41] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:41] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:41] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:42] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:42] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:44] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:45] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:45] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:48] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:49] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:50] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:51] - ::ffff:192.168.56.1 - Darth
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at freeDayModel.createFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\freeDayModel.js:53:31)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\freeDayController.js:19:32
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyFreeDay.js:52:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+
+
+[2022-08-11 19:54] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:54] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 19:55] - ::ffff:192.168.56.1 - Darth
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at freeDayModel.createFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\freeDayModel.js:54:26)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\freeDayController.js:19:32
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyFreeDay.js:52:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+
+
+[2022-08-11 20:01] - ::ffff:192.168.56.1 - Darth | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-11 20:06] - ::ffff:192.168.56.1 - Darth
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 
+            free_day_starting_timestamp = 'Entre 4 y 30 carácteres', 
+    ...' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at freeDayModel.updateFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\freeDayModel.js:75:26)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\freeDayController.js:37:32
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyFreeDay.js:52:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-11 20:07] - ::ffff:192.168.56.1 - Darth
+Error: ER_BAD_FIELD_ERROR: Unknown column 'free_day_d' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at freeDayModel.deleteFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\freeDayModel.js:88:26)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\freeDayController.js:54:32
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyFreeDay (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyFreeDay.js:12:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-11 20:17] - ::ffff:192.168.56.1 | Darth(ID: 1) successfully logged
+
+
+[2022-08-11 20:17] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-11 20:27] - ::ffff:192.168.0.7 - Darth
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at ParamModel.updateParam (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\paramModel.js:18:26)
+    at ParamModel.updateParams (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\paramModel.js:39:28)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\paramController.js:30:26
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyTurnsParams (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyTurnsParams.js:44:5)
+
+
+[2022-08-11 20:43] - ::ffff:192.168.0.7 - Darth
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE service_id = 20' at line 2
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at serviceModel.updateService (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\serviceModel.js:28:26)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\serviceController.js:39:32
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyService (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyService.js:35:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:09] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-12 13:22] - ::ffff:192.168.56.1 - Darth
+TypeError: Cannot read properties of undefined (reading 'turn_datetime')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\turnController.js:553:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:23] - ::ffff:192.168.56.1 - Darth
+TypeError: Cannot read properties of undefined (reading 'turn_datetime')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\turnController.js:553:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:24] - ::ffff:192.168.56.1 - Darth
+TypeError: Cannot read properties of undefined (reading 'turn_datetime')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\turnController.js:553:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:25] - ::ffff:192.168.56.1 - Darth
+TypeError: Cannot read properties of undefined (reading 'turn_datetime')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\turnController.js:556:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:26] - ::ffff:192.168.56.1 - Darth
+TypeError: Cannot read properties of undefined (reading 'turn_datetime')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\turnController.js:554:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 13:46] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-12 14:12] - ::ffff:192.168.0.7 | Alan Holtz(ID: 134) has been registered
+
+
+[2022-08-12 14:13] - ::ffff:192.168.0.7 | Alan Holtz(ID: 134) successfully logged
+
+
+[2022-08-12 14:17] - ::ffff:192.168.0.7 - Alan Holtz | Profile data has been updated
+
+
+[2022-08-12 14:17] - ::ffff:192.168.0.7 - Alan H | Profile data has been updated
+
+
+[2022-08-12 14:18] - ::ffff:192.168.0.7 - Alan H | Profile photo has been updated
+
+
+[2022-08-12 14:19] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-12 14:20] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-12 14:20] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-12 14:20] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-12 14:20] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-12 14:25] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-12 14:25] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 profile photo has been updated
+
+
+[2022-08-12 14:25] - ::ffff:192.168.0.7 - Darth Vader
+ReferenceError: day is not defined
+    at workDayModel.refreshWorkDays (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\workDayModel.js:21:17)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\userController.js:390:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 14:25] - ::ffff:192.168.0.7 - Darth Vader
+ReferenceError: day is not defined
+    at workDayModel.refreshWorkDays (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\workDayModel.js:21:17)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\userController.js:390:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 14:26] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-12 14:26] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-12 14:27] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-12 14:28] - ::ffff:192.168.0.7 - Darth Vader
+TypeError: Provided "key" must be a non-empty string
+    at Object.encrypt (C:\Users\PC\Desktop\turneRo-remaster\node_modules\aes256\index.js:36:13)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\userController.js:196:30
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyPermissionHandling (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyPermissionHandling.js:42:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\userController.js:190:2
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyRegisterFields (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyRegisterFields.js:44:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Un peluquero(ID: 135) has been registered as hairdresser
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 state has been modified
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 state has been modified
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:31] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:32] - ::ffff:192.168.0.7 | Alan H(ID: 134) successfully logged
+
+
+[2022-08-12 14:32] - ::ffff:192.168.0.7 - Alan H | Profile photo has been updated
+
+
+[2022-08-12 14:32] - ::ffff:192.168.0.7 - Alan H | Profile data has been updated
+
+
+[2022-08-12 14:32] - ::ffff:192.168.0.7 - Alan Holtz | Profile photo has been updated
+
+
+[2022-08-12 14:33] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-12 14:50] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:51] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:52] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:52] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:53] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:53] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 14:54] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile data has been updated
+
+
+[2022-08-12 14:54] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 135 profile photo has been updated
+
+
+[2022-08-12 15:01] - ::ffff:192.168.0.7 - Darth Vader | Free Day "Día del Trabajador" has been created
+
+
+[2022-08-12 20:43] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-12 20:54] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-12 20:55] - ::ffff:192.168.0.7 - Darth Vader | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-12 21:04] - ::ffff:192.168.0.7 - Darth Vader | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-12 21:08] - ::ffff:192.168.0.7 - Darth Vader | Free Day "Entre 4 y 30 carácteres" has been created
+
+
+[2022-08-12 21:21] - ::ffff:192.168.0.7 - Darth Vader
+TypeError: Cannot read properties of undefined (reading 'updateParams')
+    at updateParams (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\param.js:19:30)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyTurnsParams (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyTurnsParams.js:44:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyHairdresserPermission (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyHairdresserPermission.js:17:51)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\param.js:7:50
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+
+
+[2022-08-13 10:58] - ::ffff:192.168.0.7
+TypeError: Cannot read properties of undefined (reading 'getOneByMail')
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:48:36
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyParameters (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyParameters.js:7:37)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:38:2
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\index.js:281:22
+
+
+[2022-08-13 11:02] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-13 12:37] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-13 20:50] - ::ffff:192.168.0.7 | Alan Holtz(ID: 136) has been registered
+
+
+[2022-08-13 20:51] - ::ffff:192.168.0.7 | Alan Holtz(ID: 136) successfully logged
+
+
+[2022-08-13 20:53] - ::ffff:192.168.0.7 - Alan Holtz | Profile data has been updated
+
+
+[2022-08-13 20:54] - ::ffff:192.168.0.7 - Alan Ho | Profile data has been updated
+
+
+[2022-08-13 20:54] - ::ffff:192.168.0.7 - Alan Ho | Profile photo has been updated
+
+
+[2022-08-13 21:09] - ::ffff:192.168.0.7 | Darth Vader(ID: 1) successfully logged
+
+
+[2022-08-13 21:18] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:18] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:18] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-13 21:18] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 profile photo has been updated
+
+
+[2022-08-13 21:22] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-13 21:23] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-13 21:23] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-13 21:24] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-13 21:29] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 135 has been deleted
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 93 state has been modified
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 93 state has been modified
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 93 state has been modified
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 93 profile data has been updated
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 93 profile data has been updated
+
+
+[2022-08-13 21:30] - ::ffff:192.168.0.7 - Darth Vader | Un Peluquero(ID: 137) has been registered as hairdresser
+
+
+[2022-08-13 21:33] - ::ffff:192.168.0.7 - Darth Vader | Free Day "Prueba" has been created
+
+
+[2022-08-13 21:51] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:51] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 state has been modified
+
+
+[2022-08-13 21:51] - ::ffff:192.168.0.7 - Darth Vader | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-13 21:51] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 schedule has been modified
+
+
+[2022-08-13 21:51] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 93 state has been modified
+
+
+[2022-08-13 22:04] - ::ffff:192.168.0.7 | Alan Ho(ID: 136) successfully logged
+
+
+[2022-08-13 22:04] - ::ffff:192.168.0.7 - Alan Ho | Turn from Alan Ho has been created
+
+
+[2022-08-14 21:31] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-14 21:31] - ::ffff:192.168.0.7
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.getOneByMail (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:15:32)
+    at login (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:34:32)
+
+
+[2022-08-31 16:15] - ::ffff:192.168.0.7 | Cliente 3(ID: 34) successfully logged
+
+
+[2022-08-31 16:17] - ::ffff:192.168.0.7 - Cliente 3 | Profile data has been updated
+
+
+[2022-08-31 16:18] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-31 16:26] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-31 16:26] - ::ffff:192.168.0.7 - Darth | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-08-31 16:27] - ::ffff:192.168.0.7 | Cliente(ID: 34) successfully logged
+
+
+[2022-08-31 19:22] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-31 19:23] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) has been registered
+
+
+[2022-08-31 19:24] - ::ffff:192.168.0.7 | Account with Mail: alanholtz1999@gmail.com has been verified
+
+
+[2022-08-31 19:24] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-08-31 19:46] - ::ffff:192.168.0.7 | Darth(ID: 1) successfully logged
+
+
+[2022-08-31 19:50] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-08-31 20:04] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-08-31 20:11] - ::ffff:192.168.0.7 - Alan Holtz | Profile data has been updated
+
+
+[2022-08-31 20:11] - ::ffff:192.168.0.7 - Darth
+TypeError: Provided "input" must be a non-empty string or buffer
+    at Object.encrypt (C:\Users\PC\Desktop\turneRo-remaster\node_modules\aes256\index.js:42:13)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:158:38)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:91:12)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at handleVerifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:24:9)
+    at verifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:13:9)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+
+
+[2022-08-31 20:13] - ::ffff:192.168.0.7 - Darth
+TypeError: Provided "input" must be a non-empty string or buffer
+    at Object.encrypt (C:\Users\PC\Desktop\turneRo-remaster\node_modules\aes256\index.js:42:13)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:158:38)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:91:12)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at handleVerifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:24:9)
+    at verifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:13:9)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+
+
+[2022-08-31 20:13] - ::ffff:192.168.0.7 - Darth
+TypeError: Provided "input" must be a non-empty string or buffer
+    at Object.encrypt (C:\Users\PC\Desktop\turneRo-remaster\node_modules\aes256\index.js:42:13)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:158:38)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:91:12)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at handleVerifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:24:9)
+    at verifyToken (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyToken.js:13:9)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+
+
+[2022-08-31 20:15] - ::ffff:192.168.0.7 - Darth | Profile data has been updated
+
+
+[2022-08-31 20:15] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-08-31 20:16] - ::ffff:192.168.0.7 - Alan Holtz | Profile data has been updated
+
+
+[2022-08-31 20:16] - ::ffff:192.168.0.7 - hola | Profile data has been updated
+
+
+[2022-08-31 20:20] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:279:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:21] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:280:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:22] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:283:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:23] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:283:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:23] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:283:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:23] - ::ffff:192.168.0.7 - hola
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 138' at line 1
+    at Query.Sequence._packetToError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\PC\Desktop\turneRo-remaster\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:6:12
+    at new Promise (<anonymous>)
+    at executeQuery (C:\Users\PC\Desktop\turneRo-remaster\src\server\utils\executeQuery.js:5:12)
+    at UserModel.updateUser (C:\Users\PC\Desktop\turneRo-remaster\src\server\models\user.js:283:41)
+    at updateMyProfile (C:\Users\PC\Desktop\turneRo-remaster\src\server\controllers\user.js:161:15)
+    at Layer.handle [as handle_request] (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\Desktop\turneRo-remaster\node_modules\express\lib\router\route.js:137:13)
+    at verifyUserUpdateRequest (C:\Users\PC\Desktop\turneRo-remaster\src\server\middlewares\verifyUserUpdateRequest.js:84:5)
+    at C:\Users\PC\Desktop\turneRo-remaster\src\server\routes\user.js:84:54
+
+
+[2022-08-31 20:24] - ::ffff:192.168.0.7 - hola | Profile data has been updated
+
+
+[2022-08-31 20:25] - ::ffff:192.168.0.7 - hola | Profile data has been updated
+
+
+[2022-08-31 20:26] - ::ffff:192.168.0.7 - hola | Profile data has been updated
+
+
+[2022-08-31 20:33] - ::ffff:192.168.0.7 - hola | Profile data has been updated
+
+
+[2022-08-31 20:33] - ::ffff:192.168.0.7 - Alan Holtz | Profile data has been updated
+
+
+[2022-08-31 20:34] - ::ffff:192.168.0.7 - Alan Holt | Profile data has been updated
+
+
+[2022-08-31 20:35] - ::ffff:192.168.0.7 | hola(ID: 1) successfully logged
+
+
+[2022-08-31 20:35] - ::ffff:192.168.0.7 - hola | Hairdresser with ID: 93 profile data has been updated
+
+
+[2022-09-01 20:51] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-01 20:52] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-01 21:35] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-01 21:35] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-02 21:37] - ::ffff:192.168.0.7 | hola(ID: 1) successfully logged
+
+
+[2022-09-02 21:38] - ::ffff:192.168.0.7 - hola | Hairdresser with ID: 1 profile data has been updated
+
+
+[2022-09-02 21:44] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-04 18:50] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-04 18:56] - ::ffff:192.168.0.7 | Alan Holtz(ID: 138) successfully logged
+
+
+[2022-09-04 19:13] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) has been registered
+
+
+[2022-09-04 19:15] - ::ffff:192.168.0.7 | Account with Mail: alanholtz1999@gmail.com has been verified
+
+
+[2022-09-04 19:15] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-04 19:16] - ::ffff:192.168.0.7 | hola(ID: 1) successfully logged
+
+
+[2022-09-04 19:16] - ::ffff:192.168.0.7 - hola | peluquero1(ID: 140) has been registered as hairdresser
+
+
+[2022-09-04 19:16] - ::ffff:192.168.0.7 - hola | Hairdresser with ID: 140 has been deleted
+
+
+[2022-09-04 19:17] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-04 19:18] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-04 19:18] - ::ffff:192.168.0.7 | hola(ID: 1) successfully logged
+
+
+[2022-09-04 19:18] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-04 19:46] - ::ffff:192.168.0.7 | hola(ID: 1) successfully logged
+
+
+[2022-09-04 19:47] - ::ffff:192.168.0.7 - hola | Turn with ID: 173 has been updated
+
+
+[2022-09-04 19:47] - ::ffff:192.168.0.7 - hola | Turn with ID: 173 has been deleted
+
+
+[2022-09-04 20:11] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-04 20:17] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-04 20:19] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:19] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-05 19:19] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-05 19:19] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:23] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:23] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:23] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:23] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:23] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:24] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:30] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:30] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:31] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:31] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:37] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-05 19:37] - ::ffff:192.168.0.7 - Alan Holtz
+Error: Request failed with status code 500
+    at createError (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\PC\Desktop\turneRo-remaster\node_modules\axios\lib\adapters\http.js:236:11)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[2022-09-06 20:01] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-06 20:03] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-06 20:20] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-07 21:05] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-10 14:20] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+
+[2022-09-16 21:24] - ::ffff:192.168.0.7 | Alan Holtz(ID: 139) successfully logged
+
+

@@ -1,0 +1,79 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.turnero_client_profile_phone{
+
+    width: 100%;
+    flex:1;
+    @include flex(center,center);
+
+    &_send_code,&_verify_code{
+        @include flex(space-between,center,column);
+        width: 400px;
+        
+
+        &_description{
+            text-align: center;
+            color:$main-color;
+
+            p{
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    &_send_code{
+        
+        height: 80%;
+
+        &_input{
+            width: 100%;
+            @include flex(center,center);
+        }
+    }
+
+    &_verify_code{
+        height: 90%;
+
+        &_not_received{
+            text-align: center;
+            color:$main-color;
+            span{
+                font-weight: bold;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+   
+    
+    img{
+        width: 100px;
+        height: auto;
+    }
+}
+
+
+@media(max-width:533px){
+    .turnero_client_profile_phone{
+    
+        &_send_code,&_verify_code{
+            width: 100%;
+
+        }
+
+        &_send_code{
+            height: 90%;
+            &_input{
+                @include flex(center,center,column);
+                
+            }
+        }
+
+    }
+};

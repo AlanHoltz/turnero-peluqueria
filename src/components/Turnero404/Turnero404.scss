@@ -1,0 +1,27 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.turnero_404_wrapper{
+    height: 100%;
+    @include flex(center,center);
+    text-align: center;
+    position: relative;
+
+    .turnero_404{
+        color:$error-color;
+        height: 250px;
+        @include flex(space-between,center,column);
+
+        &_error{
+            @include flex(center,center,column);
+            h2{
+                font-size: 35px;
+                margin:5px 0;
+            }
+        }
+
+        &_description{
+            font-size: 18px;
+        }
+    }
+}

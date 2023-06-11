@@ -1,0 +1,23 @@
+.turnero_button_selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.turnero_button_selection_vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_button_selection .turnero_button_selection_button {
+  border: 1px solid #fac748;
+  background: none;
+  color: #fac748;
+}
+.turnero_button_selection .turnero_button_selection_button:hover, .turnero_button_selection .turnero_button_selection_button:focus {
+  background: none;
+}
+
+/*# sourceMappingURL=TurneroButtonSelection.css.map */

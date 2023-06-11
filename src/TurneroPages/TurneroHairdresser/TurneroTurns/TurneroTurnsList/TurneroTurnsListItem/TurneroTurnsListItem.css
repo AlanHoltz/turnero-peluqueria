@@ -1,0 +1,62 @@
+.turnero_turn_element {
+  transition: background 0.3s ease !important;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 90px;
+  color: #ffffff;
+  width: 100%;
+  padding: 12px;
+  position: relative;
+  cursor: pointer;
+  /*&::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 1px;
+      z-index: 2;
+      background: red;
+      transition: width .3 ease;
+      bottom: -1px;
+  }*/
+}
+.turnero_turn_element_first_column {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+.turnero_turn_element_first_column p {
+  font-size: 19px;
+}
+.turnero_turn_element_first_column p:nth-child(2) {
+  color: #fac748;
+  font-weight: 700;
+  font-size: 17px;
+}
+.turnero_turn_element_second_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_turn_element_second_column p {
+  color: #8a8888;
+}
+.turnero_turn_element_paragraph_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.turnero_turn_element_paragraph_container p {
+  margin: 0 5px;
+}
+.turnero_turn_element_selected {
+  background: #3b3b3b;
+  /* &::after {
+      width: 100%;
+  }*/
+}
+
+/*# sourceMappingURL=TurneroTurnsListItem.css.map */

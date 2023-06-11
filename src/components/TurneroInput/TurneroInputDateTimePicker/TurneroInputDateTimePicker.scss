@@ -1,0 +1,88 @@
+@use "../../../styles/mixins" as *;
+@use "../../../styles/variables" as *;
+
+.turnero_datetime_picker_wrapper {
+    @include flex(center, flex-start, column);
+    .turnero_datetime_picker_error{
+        color:$error-color;
+        font-size: 14px;
+    };
+  
+}
+.turnero_datetime_picker_dialog {
+    & .MuiPaper-root {
+        background: $dark-gray;
+
+        .MuiPickersCalendarHeader-switchHeader,
+        .MuiPickersCalendarHeader-dayLabel {
+            color: $main-color;
+        }
+
+        .MuiPickersYear-root {
+            color: rgba($main-color, 0.2);
+            &.MuiPickersYear-yearSelected {
+                color: $main-color;
+            }
+        }
+
+        .MuiPickersCalendarHeader-iconButton {
+            background: none;
+            &.MuiIconButton-root {
+                color: $main-color;
+
+                &.Mui-disabled {
+                    color: rgba($main-color, 0.2);
+                }
+            }
+        }
+
+        .MuiPickersClockNumber-clockNumber {
+            color: $main-color;
+        }
+
+        .MuiPickersClock-pin,
+        .MuiPickersClockPointer-pointer {
+            background-color: $main-color;
+        }
+
+        .MuiPickersClockPointer-thumb {
+            border: 14px solid $light-gray;
+        }
+
+        .MuiPickersClockPointer-noPoint {
+            background-color: #ffffff;
+        }
+
+        & .MuiPickersDay-day {
+            color: $main-color;
+
+            &.MuiPickersDay-dayDisabled {
+                color: rgba($main-color, 0.2);
+            }
+        }
+
+        & .MuiPickersDay-daySelected {
+            background: $light-gray;
+        }
+
+        & .MuiPickersToolbar-toolbar {
+            background: $main-color;
+            h6,
+            h4,
+            h3 {
+                color: $light-gray;
+            }
+
+            .MuiPickersToolbarText-toolbarBtnSelected {
+                background: $dark-gray;
+                border-radius: 150px;
+                color: $main-color;
+                padding: 3px;
+            }
+        }
+    }
+
+    & .MuiButtonBase-root {
+        color: $main-color;
+    }
+}

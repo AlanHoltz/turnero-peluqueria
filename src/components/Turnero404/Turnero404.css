@@ -1,0 +1,32 @@
+.turnero_404_wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+}
+.turnero_404_wrapper .turnero_404 {
+  color: #f53527;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.turnero_404_wrapper .turnero_404_error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.turnero_404_wrapper .turnero_404_error h2 {
+  font-size: 35px;
+  margin: 5px 0;
+}
+.turnero_404_wrapper .turnero_404_description {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=Turnero404.css.map */

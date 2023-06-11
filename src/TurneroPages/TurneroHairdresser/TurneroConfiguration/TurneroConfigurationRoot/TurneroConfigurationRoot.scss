@@ -1,0 +1,39 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.turnero_configuration_root {
+    @include flex(center, center);
+    height: 100%;
+    width: 100%;
+
+    &_grid {
+
+        @include flex(center, center);
+
+        .turnero_configuration_item_root {
+            width: 100%;
+            height: 140px;
+            margin: 10px;
+            @include shadowContainer;
+            color: $main-color;
+            @include flex(center, center, column);
+            padding: 20px;
+
+            p {
+                margin: 10px 0;
+                font-size: 17px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media(max-width:810px) {
+    .turnero_configuration_root_grid {
+        @include flex(center, center, column);
+
+        .turnero_configuration_item_root {
+            height: auto;
+        }
+    }
+}

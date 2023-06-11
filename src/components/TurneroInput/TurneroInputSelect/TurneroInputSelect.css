@@ -1,0 +1,25 @@
+.turnero_input_select {
+  background: #1f1f1f;
+  border-radius: 9999px;
+  padding: 5px;
+}
+.turnero_input_select::before {
+  border-bottom: 0px !important;
+}
+.turnero_input_select:hover::before {
+  border-bottom: 0px !important;
+}
+.turnero_input_select.MuiInput-underline::after {
+  border-bottom: 0px !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 0 !important;
+}
+
+.MuiMenu-list {
+  background: #2a2b2a;
+  color: #fac748;
+}
+
+/*# sourceMappingURL=TurneroInputSelect.css.map */

@@ -1,0 +1,15 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as *;
+
+.turnero_configuration_services{
+
+    width: 100%;
+
+    &_new{
+        @include flex(flex-end,center);
+    }
+
+    &_info_modal{
+        padding: 0 20px;  
+    }
+}

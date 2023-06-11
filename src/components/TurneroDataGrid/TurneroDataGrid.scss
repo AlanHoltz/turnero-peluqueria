@@ -1,0 +1,86 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.turnero_datagrid {
+    &.MuiDataGrid-root {
+        border: 0;
+        color: $main-color;
+
+        .MuiDataGrid-columnSeparator {
+            color: $dark-gray;
+            //display: none;
+        }
+
+        .MuiDataGrid-cell,
+        .MuiDataGrid-columnsContainer {
+            border: 0;
+            user-select: none;
+            
+        }
+
+        .MuiDataGrid-cell{
+            line-height: normal !important;
+        }
+
+        .MuiDataGrid-columnsContainer {
+            border-bottom: 2px solid $dark-gray;
+            //display: none;
+        }
+
+
+
+        .MuiDataGrid-columnHeader:focus,
+        .MuiDataGrid-cell:focus {
+            outline: none;
+        }
+
+        .MuiDataGrid-row {
+            transition: background .2s ease;
+            &:hover {
+                background: #323332;
+            }
+
+            &.Mui-selected {
+                background: rgba($main-color,.1);
+
+                &:hover{
+                    background: rgba($main-color,.1);
+                }
+            }
+        }
+
+        .MuiDataGrid-columnHeaderTitle{
+            opacity: .7;
+        }
+
+        .MuiDataGrid-sortIcon{
+            color:$main-color;
+        }
+    }
+
+    &_toolbar{
+        padding: 10px 10px 0 10px;
+        @include flex(space-between,center);
+
+        &_first_column{
+            @include flex(center,center);
+        }
+    }
+}
+
+
+.turnero_datagrid_no_rows{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    align-self: center;
+    @include flex(center,center);
+
+    h2{
+        text-transform: uppercase;
+        font-size:15px;
+    }
+   
+}

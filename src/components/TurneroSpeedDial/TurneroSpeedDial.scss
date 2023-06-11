@@ -1,0 +1,27 @@
+@use '../../styles/mixins'as *;
+@use '../../styles/variables'as *;
+
+.turnero_speed_dial {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    .MuiFab-root {
+        background: $main-color;
+
+        &:hover {
+            background: $main-color;
+        }
+    }
+
+    .MuiFab-label {
+        color: $second-color;
+    }
+
+    .MuiSpeedDialAction-staticTooltip{
+      .MuiSpeedDialAction-staticTooltipLabel{
+          background: $second-color;
+          color:$main-color;
+      }
+    }
+}

@@ -1,0 +1,49 @@
+@use "../../../../styles/mixins" as *;
+@use "../../../../styles/variables" as *;
+
+.turnero_configuration_turns_param {
+    @include flex(space-between, center, row);
+    width: 100%;
+    &_description {
+        color: $main-color;
+        h2 {
+            font-size: 22px;
+            margin-bottom: 2px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid rgba($main-color, 0.5);
+
+    &_value{
+        color:$main-color;
+        font-size: 18px;
+        font-weight: 700;
+        width: 192px;
+        & > p{
+            text-align: center;
+        }
+    }
+ 
+}
+
+@media (max-width: 553px) {
+    .turnero_configuration_turns_param {
+        @include flex(flex-start, flex-start, column);
+
+        &_description {
+            margin-bottom: 20px;
+        }
+
+        &_value{
+            width: 100%;
+            & > p{
+                text-align: right;
+            }
+        }
+    }
+}

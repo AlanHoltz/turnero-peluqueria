@@ -1,0 +1,117 @@
+@use '../styles/mixins'as *;
+@use '../styles/variables'as *;
+
+.turnero_pages_root {
+    height: 100%;
+    background: $second-color;
+    @include flex(flex-start, flex-start);
+    //text-align: center;
+
+    main {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:$turnero-sidebar-breakpoint) {
+    .turnero_pages_root {
+        @include flex(center, center, column);
+    }
+
+}
+
+
+
+/*ESTILOS PARA VISTA DE PERFIL DE USUARIO QUE SE UTILIZA EN LOS COMPONENTES: 
+    -TurneroClientProfile.jsx
+    -TunreroConfigurationNewHairdresser.jsx
+    -TurneroConfigurationHairdresserProfile.jsx
+*/
+
+
+/*ESTOS SON LOS ESTILOS APLICADOS A EL PERFIL DE USUARIO Y CREACIÓN DE USUARIO PARA REUTILIZARLO*/
+
+.turnero_profile {
+    height: 100%;
+    color: $main-color;
+
+    &_body_wrapper {
+        @include flex(center, center);
+        height: calc(100% - 78px);
+        width: 100%;
+
+        .turnero_profile_body {
+            display: grid;
+            height: 100%;
+            width: 80%;
+            grid-template-columns: 50% 50%;
+
+            &>div {
+                @include flex(center, center);
+            }
+
+            .turnero_profile_image_name {
+                @include flex(center, center, column);
+                position: relative;
+            }
+
+            .turnero_profile_data {
+                @include flex(center, flex-start, column);
+
+            }
+        }
+    }
+
+
+}
+
+
+@media(max-width:870px) {
+
+    .turnero_profile {
+
+
+        .turnero_profile_body {
+
+            width: 100%;
+
+
+        }
+
+
+    }
+}
+
+@media(max-width:610px) {
+    .turnero_profile {
+        .turnero_profile_body {
+            grid-template-columns: auto;
+
+            &>div {
+                @include flex(flex-start, center);
+            }
+
+            .turnero_profile_image_name{
+                width: 100%;
+                @include flex(center,flex-start,column);
+                &_avatar{
+                    margin: 0 auto;
+                }
+
+            }
+
+            .turnero_profile_data{
+                width: 100%;
+            }
+
+            .turnero_input_text_switch{
+                width: 100%;
+                .MuiFormControl-root{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
+

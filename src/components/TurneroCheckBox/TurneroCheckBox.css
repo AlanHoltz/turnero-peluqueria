@@ -1,0 +1,15 @@
+.turnero_checkbox.MuiButtonBase-root {
+  padding: 0;
+}
+.turnero_checkbox.MuiCheckbox-root, .turnero_checkbox.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #fac748;
+}
+.turnero_checkbox.MuiIconButton-colorSecondary:hover, .turnero_checkbox.MuiCheckbox-colorSecondary.Mui-checked:hover {
+  background: none;
+}
+.turnero_checkbox.Mui-disabled {
+  opacity: 0.2;
+  color: #fac748 !important;
+}
+
+/*# sourceMappingURL=TurneroCheckBox.css.map */

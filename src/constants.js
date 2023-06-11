@@ -1,0 +1,40 @@
+const HAIRDRESSING_NAME = "The Barber Club"
+
+const JWT_COOKIE_NAME = "JWT_TOKEN";
+
+const ENABLE_EMAIL_VERIFICATION = true;
+const ENABLE_PHONE_VERIFICATION = true;
+const SENDER_EMAIL = "noreply.thebarberclub@gmail.com";
+const SENDER_PASSWORD = "ignhnaeketgkrvbl";
+const MAIL_MAIN_COLOR = "#fac748";
+const MAIL_SECOND_COLOR = "#2a2b2a";
+
+const FACEBOOK_URL_BASE = "https://graph.facebook.com/v13.0/101788686008275"
+
+const MAP_TURNS_IN = 0.1     //
+const ACCEPTED_DELETE_TIME = 60; //
+const PENDING_TO_REJECTED_TIME = 60; // SE MANEJA EN MINUTOS  
+const REJECTED_DELETE_TIME = 60; //
+
+const HAIRDRESSER_PRIVILEGES = {
+    1: "Peluquero Dueño",
+    2: "Administrador",
+    3: "Peluquero"
+}
+
+module.exports = {
+    ACCEPTED_DELETE_TIME,
+    PENDING_TO_REJECTED_TIME,
+    REJECTED_DELETE_TIME,
+    MAP_TURNS_IN,
+    JWT_COOKIE_NAME,
+    ENABLE_EMAIL_VERIFICATION,
+    SENDER_EMAIL,
+    SENDER_PASSWORD,
+    HAIRDRESSING_NAME,
+    MAIL_MAIN_COLOR,
+    MAIL_SECOND_COLOR,
+    HAIRDRESSER_PRIVILEGES,
+    FACEBOOK_URL_BASE,
+    ENABLE_PHONE_VERIFICATION
+};
